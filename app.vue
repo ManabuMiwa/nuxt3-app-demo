@@ -8,7 +8,7 @@
       >
         Increment
       </button>
-      <p class="is-size-3 mt-3">{{ myData }}</p>
+      <p class="red is-size-3 mt-3">{{ myData }}</p>
     </div>
   </div>
 </template>
@@ -27,3 +27,9 @@ export default {
   }
 }
 </script>
+
+<style>
+  .red {
+    color: red;
+  }
+</style>
