@@ -1,4 +1,7 @@
 <template>
+  <TitleHeader
+   :title-name="'Top Page'"
+  />
   <div class="container">
     <div class="section">
       <h1 class="is-size-2">My Project</h1>
@@ -28,6 +31,7 @@ export default {
 }
 </script>
 
+<!-- this style is ok -->
 <style>
   .red {
     color: red;
